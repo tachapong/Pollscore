@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>List</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label fixed>Input 1</ion-label>
+      <ion-input type="name" [(ngModel)]="data1"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label fixed>Input 2</ion-label>
+      <ion-input type="name" [(ngModel)]="data2"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label fixed>Input 3</ion-label>
+      <ion-input type="name" [(ngModel)]="data1"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label fixed>Input 4</ion-label>
+      <ion-input type="name" [(ngModel)]="data2"></ion-input>
+    </ion-item>
+    <ion-item>
+      <button ion-button block (click)="Add()">OK</button>
+    </ion-item>
+   
+  </ion-list>
+</ion-content>
